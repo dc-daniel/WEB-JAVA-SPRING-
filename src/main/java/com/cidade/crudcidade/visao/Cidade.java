@@ -1,5 +1,8 @@
 package com.cidade.crudcidade.visao;
 
+import lombok.Data;
+
+@Data
 public final class Cidade {
 
     private String nome;
@@ -10,23 +13,6 @@ public final class Cidade {
         this.estado = estado;
     }
 
-    public Cidade() {
-    }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
 
 }
